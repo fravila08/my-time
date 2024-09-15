@@ -17,6 +17,6 @@ docker-compose run --rm backend python manage.py migrate
 
 # Open the application in the default browser
 echo "Opening the application in the default browser..."
-xdg-open http://localhost:8000 || open http://localhost:8000
+xdg-open http://localhost:80 || open http://localhost:80
 
 echo "Setup complete!"
